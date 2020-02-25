@@ -75,3 +75,5 @@ COPY start.sh stop.sh /opt/
 
 RUN chmod +x /opt/start.sh && \
     chmod +x /opt/stop.sh 
+
+ENV GST_PLUGIN_PATH /opt/gst-kaldi-nnet2-online/src/:/opt/kaldi/src/gst-plugin/
